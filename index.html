@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<html><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AluraBooks</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -35,7 +32,7 @@
           <a href="#" class="lista-menu__link">Business</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Design & UX</a>
+          <a href="#" class="lista-menu__link">Design &amp; UX</a>
         </li>
       </ul>
       <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
@@ -56,32 +53,30 @@
   <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
     <!-- Slider main container -->
-    <div class="swiper">
+    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
       <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper" id="swiper-wrapper-0645dc18192c5d85" aria-live="polite">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="img/Apachekafka.svg"
-            alt="Livro sobre apache kafka e spring boot da alura books"></div>
-        <div class="swiper-slide"><img src="img/Liderança.svg"
-            alt="Livro sobre liderança em design design da alura books"></div>
-        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alura books">
+        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 259.333px; margin-right: 10px;"><img src="img/Apachekafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 6" style="width: 259.333px; margin-right: 10px;"><img src="img/Liderança.svg" alt="Livro sobre liderança em design design da alura books"></div>
+        <div class="swiper-slide" role="group" aria-label="3 / 6" style="width: 259.333px; margin-right: 10px;"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alura books">
         </div>
-        <div class="swiper-slide">
-          <img src="img/Guia Front-end.svg" alt="Livro Guia front end" />
+        <div class="swiper-slide" role="group" aria-label="4 / 6" style="width: 259.333px; margin-right: 10px;">
+          <img src="img/Guia Front-end.svg" alt="Livro Guia front end">
         </div>
-        <div class="swiper-slide">
-          <img src="img/Portugol.svg" alt="Livro sobre portugol" />
+        <div class="swiper-slide" role="group" aria-label="5 / 6" style="width: 259.333px; margin-right: 10px;">
+          <img src="img/Portugol.svg" alt="Livro sobre portugol">
         </div>
-        <div class="swiper-slide">
-          <img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade" />
+        <div class="swiper-slide" role="group" aria-label="6 / 6" style="width: 259.333px; margin-right: 10px;">
+          <img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade">
         </div>
       </div>
 
       <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      
+      
 
-    </div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 
     <div class="card">
       <div class="card__descrição">
@@ -92,15 +87,15 @@
             Construindo uma aplicação integrada com a plataforma do Google.
           </p>
         </div>
-        <img src="img/Angular.svg" class="descrição__imagem" />
+        <img src="img/Angular.svg" class="descrição__imagem">
       </div>
       <div class="card__botões">
         <ul class="botões">
           <li class="botões__item">
-            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+            <img src="img/Favoritos.svg" alt="Favoritar livro">
           </li>
           <li class="botões__item">
-            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras">
           </li>
         </ul>
         <a href="#" class="botões__ancora">Saiba mais</a>
@@ -109,30 +104,9 @@
 
   </section>
 
-  <section class=”carrossel”>
-    <h2 class="carrossel__titulo">Mais vendidos</h2>
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="img/ApacheKafka.svg"
-            alt="Livro sobre apache kafka e spring boot da alura books"></div>
-        <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design da alura books">
-        </div>
-        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alurabooks">
-        </div>
-        <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro Guia front end"></div>
-        <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
-        <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
-      </div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
+  <section class="”carrossel”">
+    
+    
 
     <div class="card">
       <!-- 1º linha -->
@@ -179,7 +153,7 @@
         <a href="#" class="tópicos__link">Startups</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">HTML & CSS</a>
+        <a href="#" class="tópicos__link">HTML &amp; CSS</a>
       </li>
       <li class="tópicos__item">
         <a href="#" class="tópicos__link">Python</a>
@@ -198,10 +172,10 @@
     <p class="contato__texto">
       Atualizações de e-books, novos livros, promoções e outros.
     </p>
-    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
   </section>
 
-  <hr />
+  <hr>
 
   <footer class="rodapé">
     <h2 class="rodapé__titulo">Grupo Alura</h2>
@@ -218,6 +192,7 @@
       },
     });
   </script>
-</body>
 
-</html>
+
+
+</body></html>
